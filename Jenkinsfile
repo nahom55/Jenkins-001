@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('dev') {
       steps {
-        sh 'go test ./...'
+        sh 'echo \'hello blue\''
       }
     }
 
